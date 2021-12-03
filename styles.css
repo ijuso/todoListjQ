@@ -1,0 +1,44 @@
+.container {
+  padding: 50px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input:invalid {
+  border-color: red;
+  border-style: dashed;
+}
+
+form {
+  display: inline-block;
+}
+
+#nappi {
+  display: inline-block;
+  background-color:#000000;
+  color:#ffffff;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+}
+
+li:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#nappi:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.yliviivaus {
+  text-decoration: line-through;
+}
